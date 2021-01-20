@@ -34,6 +34,8 @@
 
       yarn add knex
       
+- Crie na raiz do projetoo arquivo knexfile.ts
+      
 - Comandos adicionais
 
       yarn dev - executa o projeto em ambiente de desenvolvimento
