@@ -34,7 +34,35 @@
 
       yarn add knex
       
-- Crie na raiz do projetoo arquivo knexfile.ts
+- Crie na raiz do projeto o arquivo knexfile.ts e insira as informações a seguir:
+
+      module.exports = {
+      client: 'tipo de banco de dados',
+      connection: {
+          host: '',
+          user: '',
+          password: '',
+          database: '',
+          ssl: { rejectUnauthorized: false }
+  }
+}
+
+- Crie na pasta src/database o arquivo connections.ts
+
+      import knex from 'knex'
+
+      const connection = knex({
+      client: 'mysql',
+      connection: {
+        host: 'mysql-18613-0.cloudclusters.net',
+        user: 'root',
+        password: 'Thayla&Theo63280',
+        database: 'unifilialsup',
+      ssl: { rejectUnauthorized: false }
+        }
+      })
+
+      export default connection
       
 - Comandos adicionais
 
