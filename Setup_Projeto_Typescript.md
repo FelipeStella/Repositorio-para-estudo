@@ -30,6 +30,9 @@
      
 - Crie uma pasta na raiz do projeto chamada src e dentro dela um arquivo chamado server.ts
 - Crie uma pasta src, uma pasta chamada controllers e outra chamada database
+- Adicione a Query Builder Knex
+
+      yarn add knex
       
 - Comandos adicionais
 
