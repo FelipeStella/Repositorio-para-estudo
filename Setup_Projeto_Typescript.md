@@ -28,7 +28,7 @@
         "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
       }
      
-- Crie uma pasta na raiz do projeto chamada src e dentro dela um arquivo chamado server.ts
+- Crie uma pasta na raiz do projeto chamada src e dentro dela um arquivo chamado server.ts e outro chamado router.ts
 - Crie uma pasta src, uma pasta chamada controllers e outra chamada database
 - Adicione a Query Builder Knex
 
