@@ -1,4 +1,4 @@
-# Setup para um projeto Node.js em Typescript
+# Setup para um projeto Node.js em Typescript com Query Builder Knex e banco de dados MySql
 
 - Inicialize o projeto com o comando:
 
@@ -63,6 +63,13 @@
       })
 
       export default connection
+      
+- Execute o comando a seguir para que o node consiga tratar os erros de uma forma mais amigável
+
+      yarn add express-async-errors
+      
+- Crie uma pasta dentro de src chamado errors
+- Crie um arquivo dentro desta pasta chamado handler.ts e configure o arquivo
       
 - Comandos adicionais
 
