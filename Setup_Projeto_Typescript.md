@@ -1,4 +1,4 @@
-# Setup para um projeto Node.js em Typescript com Query Builder Knex e banco de dados MySql
+# Setup para um projeto Node.js em Typescript com Query Builder Knex, banco de dados MySql e validação de dados com Yup
 
 - Inicialize o projeto com o comando:
 
@@ -70,6 +70,10 @@
       
 - Crie uma pasta dentro de src chamado errors
 - Crie um arquivo dentro desta pasta chamado handler.ts e configure o arquivo
+- Execute o comando a seguir:
+       
+       yarn add yup - faz a validação dos dados vindos de uma requisição http
+       yarn add @types/yup -D - para importar a tipagem do Yup
       
 - Comandos adicionais
 
