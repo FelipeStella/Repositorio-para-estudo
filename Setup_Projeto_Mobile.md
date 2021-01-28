@@ -1,4 +1,36 @@
-# Setup projeto mobile typescript
+# Setup projeto mobile typescript com Yarn e Expo
+
+## Para utilizar as fontes do Google, siga o passo a passo a seguir:
+
+* Execute o comando 
+
+      expo install @expo-google-fonts/nunito expo-font
+      
+* Insira o código a seguir:
+
+      import { useFonts } from 'expo-font'
+      import { Nunito_600SemiBold, Nunito_700Bold, Nunito_800ExtraBold } from '@expo-google-fonts/nunito'
+      
+      export default function App() {
+      const [carregarFonts] = useFonts({
+        Nunito_600SemiBold,
+        Nunito_700Bold,
+        Nunito_800ExtraBold
+      })
+
+      if(!carregarFonts) {
+        return null  
+      }
+      
+## Instale o módulo expo-navigation 
+
+* Execute os comandos a seguir:
+
+      yarn add @react-navigation/native
+      expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+      yarn add @react-navigation/stack
+      
+## Estrutura
 
 * Execute o comando a seguir:
       
@@ -16,3 +48,10 @@
 * Abra o PowerShell como administrador e execute o comando 
     
       npm config set registry http://registry.npmjs.org
+      
+* Crie uma pasta chamada src na raiz do projeto
+* Crie dentro da pasta src outra chamada pages
+* Crie um arquivo chamado routes.tsx dentro da pasta src
+
+
+
