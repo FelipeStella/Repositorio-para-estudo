@@ -52,6 +52,7 @@
 * Crie uma pasta chamada src na raiz do projeto
 * Crie dentro da pasta src outra chamada pages
 * Crie um arquivo chamado routes.tsx dentro da pasta src
+* Crie uma pasta chamado components dentro da pasta src
 
 
 
