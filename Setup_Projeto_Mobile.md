@@ -54,5 +54,13 @@
 * Crie um arquivo chamado routes.tsx dentro da pasta src
 * Crie uma pasta chamado components dentro da pasta src
 
+* Adicione a biblioteca do Axios para fazer as chamadas HTTP (Chamadas da API) executando o comando a seguir:
+ 
+      yarn add axios
+      
+* Crie uma pasta dentro de src chamada service
+* Dentro desta pasta crie um arquivo chamado api.ts
+
+
 
 
