@@ -8,6 +8,8 @@
 
       yarn add express - express (Utilizado para tratamento de requisições)
       yarn add @types/express
+      yarn add cors - trata as requisições feitas por outras api´s
+      yarn add @types/cors
      
 - Adicione as seguintes dependencias de desenvolvimento:
 
