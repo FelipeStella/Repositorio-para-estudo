@@ -8,6 +8,8 @@
 6. [Setup Projeto Mobile React Native com Expo](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/Setup_Projeto_Mobile.md)
 7. [Clonar projeto no Ubuntu WSL2](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/clonar-projeto-ubuntu-wsl2.md)
 8. [Abrir o VSCode remote Ubunto WSL2](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/clonar-projeto-ubuntu-wsl2.md)
-9. [Instala o Docker no Ubuntu WSL2](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalar-docker-ubunto-wsl2.md)
-10. [Instala WSL2 no Windows](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalacao-wsl2-windows-subsistema-ubuntu.md)
+9. [Instalar o Docker no Ubuntu WSL2](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalar-docker-ubunto-wsl2.md)
+10. [Instalar WSL2 no Windows](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalacao-wsl2-windows-subsistema-ubuntu.md)
+11. [Instalar Windons Terminar via chocolatey](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalar-windows-terminal-via-chocolatey.md)
+
 
