@@ -11,5 +11,6 @@
 9. [Instalar o Docker no Ubuntu WSL2](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalar-docker-ubunto-wsl2.md)
 10. [Instalar WSL2 no Windows](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalacao-wsl2-windows-subsistema-ubuntu.md)
 11. [Instalar Windons Terminar via chocolatey](https://github.com/FelipeStella/Repositorio-para-estudo/blob/main/instalar-windows-terminal-via-chocolatey.md)
+12. [Instalar npm no WSL2 Ubuntu](https://github.com/FelipeStella/Repositorio-para-estudo/blob/master/instalar-nvm-wsl2-ubuntu.md)
 
 
