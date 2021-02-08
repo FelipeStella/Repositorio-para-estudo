@@ -14,5 +14,6 @@
 12. [Instalar nvm no WSL2 Ubuntu](https://github.com/FelipeStella/Repositorio-para-estudo/blob/master/instalar-nvm-wsl2-ubuntu.md)
 13. [Instalar node.js no WSL2 Ubuntu](https://github.com/FelipeStella/Repositorio-para-estudo/blob/master/instalar-node-wsl2-ubuntu.md)
 14. [Erro ao executar yarn add](https://github.com/FelipeStella/Repositorio-para-estudo/blob/master/erro-yarn-add.md)
+15. [Instalar yarn no WSL2 Ubuntu](https://github.com/FelipeStella/Repositorio-para-estudo/blob/master/instalar-yarn-wsl2-ubuntu.md)
 
 
