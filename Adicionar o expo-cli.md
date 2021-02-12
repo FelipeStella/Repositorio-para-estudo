@@ -1,4 +1,6 @@
-# Instruções para adicionar o expo-cli para iniciar o seu projeto mobile utilizando Yarn no Windows 10
+# Instruções para adicionar o expo-cli no seu projeto react native
+
+## Windows
 
 * Execute o comando a seguir:
     
@@ -8,7 +10,7 @@
 
       expo -h
 
-## Instruções para informar o local de instalação dos pacotes globais do expo
+### Instruções para informar o local de instalação dos pacotes globais do expo
 
 * Execute o comando a seguir:
       
@@ -27,5 +29,12 @@
 * Execute novamente o comando a seguir:
 
       expo -h
+      
+## Ubuntu
+
+- Instale o expo globalmente
+
+      sudo npm install --global expo-cli
+      
 
       
