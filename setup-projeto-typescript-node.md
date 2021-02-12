@@ -34,35 +34,44 @@
 - Crie uma pasta src, uma pasta chamada controllers e outra chamada database
 - Adicione a Query Builder Knex
 
-      yarn add knex
+      npx install knex
+      
+- Adicione o dotenv
+
+      yarn add dotenv
+      
+- Crie um arquivo na raiz do projeto chamado .env e neste arquivo insira suas variáveis de ambiente, exemplo:
+
+      MYSQL_HOST=seu host
+      MYSQL_USER=seu usário
+      MYSQL_PASS=sua senha
+      MYSQL_PORT=a porta
+      MYSQL_DB=seu banco de dados
       
 - Crie na raiz do projeto o arquivo knexfile.ts e insira as informações a seguir:
 
+      import * as dotenv from 'dotenv'
+
+      dotenv.config()
+
       module.exports = {
-      client: 'tipo de banco de dados',
-      connection: {
-          host: '',
-          user: '',
-          password: '',
-          database: '',
-          ssl: { rejectUnauthorized: false }
-  }
-}
+        development: {
+          client: 'mysql',
+          connection: {
+            host: process.env.MYSQL_HOST,
+            user: process.env.MYSQL_USER,
+            password: process.env.MYSQL_PASS,
+            port: process.env.MYSQL_PORT,
+            database: process.env.MYSQL_DB,
+            ssl: { rejectUnauthorized: false }
+            }
+        }
+      }
 
 - Crie na pasta src/database o arquivo connections.ts
 
-      import knex from 'knex'
-
-      const connection = knex({
-      client: 'mysql',
-      connection: {
-        host: 'mysql-18613-0.cloudclusters.net',
-        user: 'root',
-        password: 'Thayla&Theo63280',
-        database: 'unifilialsup',
-      ssl: { rejectUnauthorized: false }
-        }
-      })
+      const knexfile = require ('../../knexfile')
+      const connection = require('knex')(knexfile['development'])
 
       export default connection
       
