@@ -1,4 +1,4 @@
-# Chaves SSH e Tokens
+# Chaves SSH e Tokens 🔑
 
 ## Gerar uma nova chave SSH
 
