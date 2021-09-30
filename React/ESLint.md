@@ -1,14 +1,10 @@
-# Configuração do ESlint
+# Configuração do ESlint com Typescript
 
-- Execute o comando a seguir para instalar as dependências
+Instalar dependências: `npm install -D eslint @typescript-eslint @typescript-eslint/eslint-plugin`
       
-      yarn add -D eslint @typescript-eslint @typescript-eslint/eslint-plugin
+Iniciar o ESlint: `npm eslint --init`
       
-- Inicie o ESlint
-    
-      yarn eslint --init
-      
-- Selecione as opções conforme arquivo a seguir:
+Selecione as opções de configuração do arquivo:
 
       √ How would you like to use ESLint? · style
       √ What type of modules does your project use? · esm
@@ -19,11 +15,7 @@
       √ Which style guide do you want to follow? · standard
       √ What format do you want your config file to be in? · JavaScript
       
-- Delete o arquivo package-lock.json e execute o comando a seguir:
-
-      yarn
-      
-- Ajuste o arquivo .eslint.json conforme configuração a seguir:
+Ajuste as configurações do arquivo .eslint.json:
 
       module.exports = {
       env: {
