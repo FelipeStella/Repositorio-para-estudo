@@ -7,6 +7,5 @@ Execução do projeto: `npm run [name-script]`
 Iniciar projeto React: `npx create-react-app "nome-projeto"`
 - O nome do projeto deve ser sempre em letra minusculas e sem espaço
 
-Instala react, react dom e react-scripts: `npm install --save react react-dom react-scripts`
 
 
